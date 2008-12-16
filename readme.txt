@@ -2,9 +2,9 @@
 Contributors: Hank Pantier, Sylvain Saucier
 Donate link: http://open-source-ideas.com/googlemapper
 Tags: store locator, google maps
-Requires at least: 2.3
-Tested up to: 2.3.7
-Stable tag: 2.0
+Requires at least: 2.6
+Tested up to: 2.7
+Stable tag: 2.0.3
 
 This plugin allows a Wordpress Site Admin to enter locations of stores etc into the db.  The user can then search for the closest location.
 
