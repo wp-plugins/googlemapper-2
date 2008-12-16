@@ -2,12 +2,11 @@
 Contributors: Hank Pantier, Sylvain Saucier
 Donate link: http://open-source-ideas.com/googlemapper
 Tags: store locator, google maps
-Requires at least: 2.6
-Tested up to: 2.7
-Stable tag: 2.0.3
+Requires at least: 2.3
+Tested up to: 2.3.7
+Stable tag: 2.0
 
-This plugin allows a Wordpress Site Admin to enter locations of stores etc into the db.  The information is then displayed on the front end
-using the google maps interface. You can enter a starting location to get the closest office and directions to get there.
+This plugin allows a Wordpress Site Admin to enter locations of stores etc into the db.  The user can then search for the closest location.
 
 == Description ==
 
@@ -24,7 +23,7 @@ The actual google maps functionality is based on GoogleMapAPI - A library used f
 http://www.phpinsider.com/php/code/GoogleMapAPI/
 
 == Installation ==
-1. Unzip and upload "googlemapper-2" to the "/wp-content/plugins/" directory
+1. Upload "google-mapper" to the "/wp-content/plugins/" directory
 1. Activate the plugin through the "Plugins" menu in WordPress
 1. Place `<?php if(function_exists('gm_show_map')) gm_show_map(); ?>` in your templates
 
