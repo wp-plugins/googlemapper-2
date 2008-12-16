@@ -1,0 +1,32 @@
+.mapper_search_form
+{
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+.mapper_search_input
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:0px;
+	padding:0px;
+	border:none;
+	background:none;
+}
+
+.wpp_map_search_links
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:0px;
+	padding:0px;
+	border:none;
+	background:none;
+	cursor:pointer;
+}

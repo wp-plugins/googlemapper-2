@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style>
+.wpp_map_search_form
+{
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+.wpp_map_search_input
+{
+	background:none;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:1px;
+	padding:0px;
+	border:none;
+	background:none;
+	width:100%;
+}
+
+.wpp_map_search_text
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:1px;
+	padding:0px;
+	border:none;
+	background:none;
+}
+
+.wpp_map_search_link
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:1px;
+	padding:0px;
+	border:none;
+	background:none;
+	cursor:pointer;
+}
+
+.wpp_map_search_left
+{
+background: url(wpp_map_bg_left.gif) top left;	
+}
+
+.wpp_map_search_right
+{
+background: url(wpp_map_bg_right.gif) top right;	
+}
+
+.wpp_map_border
+{
+background-color: black;	
+}
+
+</style>
+<script src="inc/mapper.lib.js"></script>
+<script>var map = 1;</script>
+</head>
+
+<body>
+<form name="sourceAddress" class="wpp_map_search_form" onsubmit="startSearch(document.sourceAddress.address.value, map);return false;">
+
+<table border="0" cellpadding="0" cellspacing="0" align="center">
+	<tr>
+    	<td class="wpp_map_search_left"><nobr>
+			<span class="wpp_map_search_text">&nbsp;De :&nbsp;</span><input class="wpp_map_search_input" type="text" name="address" value="Entrez vote adresse de départ ici." size="30" onfocus="" onblur="">
+		</nobr></td>
+        <td align="right" class="wpp_map_search_right"><nobr>
+        	<a onclick="startSearch(document.sourceAddress.address.value, map);" class="wpp_map_search_link">Trouver</a> | <a onclick="help('map_search')" class="wpp_map_search_link">Aide</a>&nbsp;</nobr>
+        </td>
+    </tr>
+    	<td colspan="2" width="500" class="wpp_map_border"><img src="null.gif" width="1" height="1" /></td>
+    </tr>
+    </tr>
+    	<td colspan="2" width="500" height="400" bgcolor="#990000">
+        	carte
+        </td>
+    </tr>
+    <tr>
+    	<td colspan="2">
+        	<div id="sidebar_destination"></div>
+        </td>
+    </tr>
+</table>
+</form>
+
+
+</body>
+</html>
